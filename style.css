@@ -1,6 +1,7 @@
 /* Font Family */
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 /* Heading Section */
@@ -210,6 +211,48 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+/* Review Section */
+.review {
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.review-title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 48px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin-bottom: 128px;
+}
+
+.review-box {
+    border-radius: 15px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 20px;
+}
+
+.review-star {
+    color: #E55473;
+}
+
+.review-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.review-name {
+    font-size: 24px;
+    font-weight: 600;
 }
 
 /* Subscribe Section */
