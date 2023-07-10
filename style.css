@@ -181,7 +181,7 @@ body {
     border: none;
 }
 
-/* Instagram */
+/* Instagram Section */
 .insta {
     text-align: center;
     margin-top: 128px;
@@ -212,7 +212,7 @@ body {
     gap: 24px;
 }
 
-/* Subscribe */
+/* Subscribe Section */
 .subscribe {
     background-image: url('Flower Asset/Rectangle 9.png');
     background-size: 1440px;
@@ -265,4 +265,39 @@ body {
     height: 64px;
     margin-left: 16px;
     border: none;
+}
+
+/* Footer Section */
+footer {
+    background: #111010;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+}
+
+.footer-title > span {
+    color: #FFFFFF;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 625px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 128px;
 }
