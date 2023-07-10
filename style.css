@@ -180,3 +180,34 @@ body {
     padding: 20px 43px;
     border: none;
 }
+
+/* Instagram */
+.insta {
+    text-align: center;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    max-width: 594px;
+}
+
+.insta-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
