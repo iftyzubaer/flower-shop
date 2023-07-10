@@ -109,3 +109,26 @@ body {
     line-height: 35px;
     text-decoration-line: underline;  
 }
+
+/* Service Section */
+.service {
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 86px;
+    padding-left: 175px;
+    padding-right: 175px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.service-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
