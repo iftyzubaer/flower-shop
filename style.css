@@ -7,43 +7,41 @@ body {
 /* Heading Section */
 .head {
     background: rgba(229, 84, 115, 0.10);
+    background-image: url('Flower Asset/pngwing 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.head-container {
-    margin-left: 240px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .head-title {
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
-    max-width: 708px;
+    max-width: 520px;
 }
 
 .head-para {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
-    max-width: 634px;
+    max-width: 480px;
 }
 
 .head-btn {
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     padding: 20px 43px;
     border: none;
-}
-
-.head-img {
-    margin-top: 50px;
-    margin-right: 240px;
+    margin-bottom: 147px;
 }
 
 /* Our Featured Flowers Section */
@@ -78,19 +76,19 @@ body {
 }
 
 #featured-img-1 {
-    padding: 110px 78px 0px 76px;
+    padding: 110px 60px 0px 60px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
 
 #featured-img-2 {
-    padding: 117px 47px 51px 47px;
+    padding: 117px 40px 33px 40px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 #featured-img-3 {
-    padding: 67px 75px 0px 75px;
+    padding: 67px 60px 0px 60px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);   
 }
@@ -112,17 +110,15 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    gap: 100px;
-    padding-top: 86px;
-    padding-left: 175px;
-    padding-right: 175px;
+    gap: 75px;
+    padding: 86px 175px 86px 175px;
     margin-top: 128px;
     margin-bottom: 128px;
 }
 
 .service-title {
     color: rgba(39, 39, 39, 0.80);
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 35px;
 }
@@ -253,7 +249,7 @@ body {
     background-image: url('Flower Asset/Rectangle 9.png');
     background-size: 1440px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: cover;
     border-radius: 8px;
     text-align: center;
     margin-left: 240px;
@@ -267,7 +263,7 @@ body {
     font-weight: 800;
     padding: 0;
     margin: 0;
-    padding-top: 122px;
+    padding-top: 90px;
 }
 
 .subscribe-para {
@@ -281,14 +277,14 @@ body {
 .subscribe-content input[type="email"] {
     border-radius: 8px;
     background: #FFF;
-    width: 700px;
+    width: 500px;
     height: 64px;
     border: none;
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
     padding-left: 22px;
-    margin-bottom: 121px;
+    margin-bottom: 90px;
 }
 
 .subscribe-btn {
@@ -311,7 +307,7 @@ footer {
 
 .footer-title {
     color: #E55473;
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 800;
     padding-top: 128px;
 }
@@ -322,7 +318,7 @@ footer {
 
 .footer-para {
     color: rgba(255, 255, 255, 0.90);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     max-width: 625px;
@@ -333,7 +329,7 @@ footer {
 
 .footer-copyright {
     color: rgba(255, 255, 255, 0.40);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding-bottom: 128px;
 }
