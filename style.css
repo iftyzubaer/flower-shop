@@ -71,7 +71,7 @@ body {
     max-width: 594px;
 }
 
-.featured-container {
+.featured-box {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -95,16 +95,8 @@ body {
     background: rgba(71, 125, 17, 0.15);   
 }
 
-.featured-container2 {
-    display: flex;
-    justify-content: center;
-    gap: 310px;
-    margin-top: 32px;
-}
-
 .featured-cap {
     color: #272727;
-    text-align: center;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
@@ -120,6 +112,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    gap: 100px;
     padding-top: 86px;
     padding-left: 175px;
     padding-right: 175px;
